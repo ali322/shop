@@ -1,0 +1,1 @@
+<li><a href="<?php echo Yii::app()->createUrl('main/actView',array('id'=>$data->act_id));?>" title='<?php echo $data->act_name;?>' target='_blank'><img src="<?php echo $data->getImageUrl().'/'.$data->act_ad; ?>" alt=""></a></li>

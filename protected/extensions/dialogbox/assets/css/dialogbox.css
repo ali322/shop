@@ -1,0 +1,10 @@
+#dialogBox{position:absolute;top:0;left:0;display:none;z-index:99999;text-align:left;background:#FFF;border:2px solid #CCC;}
+#dialogBox img{border:0;margin:0;}
+.dialog_box_title_wrap{height:32px;width:430px;border-bottom:1px solid #DBDBDB;position:relative;background:url("../images/bg/repeat_bg.png") repeat-x 0 -722px;}
+.dialog_box_title{line-height:32px;height:32px;padding-left:15px;font-size:14px;font-weight:bold;}
+.dialogBox_close{position:absolute;top:7px;right:5px;clear:both;height:18px;line-height:19px;width:30px;padding-right:20px;cursor:pointer;background:url("../images/bg/bg_spirit_new.png") no-repeat 30px -603px;}
+.dialog_box_content{padding:5px;}
+#dialogBox_overlay{position:absolute;top:0;left:0;width:100%;height:100%;}
+.dialogBox_hide{z-index:-100;}
+.dialogBox_overlayBG{background:#000;z-index:99998;}
+#dialogBox_loading{width:32px;height:32px;margin:0 auto;background:url("../images/icons/loading.gif") no-repeat 0 0;}
